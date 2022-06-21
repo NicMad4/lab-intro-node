@@ -27,9 +27,21 @@ class SortedList {
     else return Math.min(...this.items)
   }
 
-  sum() {}
+  sum() {
+    let result=0
+    for(let i=0;i<this.items.length;i++){
+       result+=this.items[i]
+    }
+    return result
+  }
 
-  avg() {}
+  avg() {
+    let resultado=0
+    for(let i=0;i<this.items.length;i++){
+       result+=this.items[i]/this.items.length
+    }
+    return resultado
+  }
 }
 
 module.exports = SortedList;
