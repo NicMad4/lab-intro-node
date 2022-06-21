@@ -38,7 +38,7 @@ class SortedList {
   avg() {
     let resultado=0
     for(let i=0;i<this.items.length;i++){
-       result+=this.items[i]/this.items.length
+       resultado+=this.items[i]/this.items.length
     }
     return resultado
   }
